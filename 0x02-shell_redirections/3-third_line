@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -m 3 -o '.*' iacta | cut -d ':' -f 1 | tail -n 1
+head -3 iacta | tail -1
